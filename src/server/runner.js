@@ -160,24 +160,28 @@ async function runTests(
         elementLocation,
       );
 
+      if (record) {
+        events.emit('pass', {
+          name: testName,
+          screenshotPath,
+          expectedPath,
+          diffPath,
+        });
+        continue;
+      }
+
       const imagesAreSame = await compareScreenshots(
         screenshotPath,
         expectedPath,
         diffPath,
       );
 
-      const test = {
+      events.emit(imagesAreSame ? 'pass' : 'fail', {
         name: testName,
         screenshotPath,
         expectedPath,
         diffPath,
-      };
-
-      if (imagesAreSame) {
-        events.emit('pass', test);
-      } else {
-        events.emit('fail', test);
-      }
+      });
     }
   }
 
