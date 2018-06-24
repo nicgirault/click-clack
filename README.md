@@ -10,5 +10,5 @@ An example of usage can be found on [Argos-CI](https://github.com/argos-ci/argos
 ## install
 
 ```bash
-yarn add click-clack
+yarn add @nicgirault/click-clack
 ```

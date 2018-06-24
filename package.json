@@ -1,6 +1,6 @@
 {
-  "name": "click-clack",
-  "version": "1.0.0",
+  "name": "@nicgirault/click-clack",
+  "version": "1.0.1",
   "keywords": [""],
   "description": "A Javascript visual regression test runner using selenium",
   "main": "./src/index.js",
