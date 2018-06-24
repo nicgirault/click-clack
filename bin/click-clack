@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+
+require('click-clack/server/cli.js').default(process.argv);

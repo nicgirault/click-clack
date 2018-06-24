@@ -1,12 +1,11 @@
 {
   "name": "click-clack",
   "version": "1.0.0",
-  "private": true,
-  "keywords": [],
+  "keywords": [""],
   "description": "A Javascript visual regression test runner using selenium",
   "main": "./src/index.js",
   "bin": {
-    "vrtest": "./bin/vrtest"
+    "click-clack": "./bin/click-clack"
   },
   "scripts": {
     "build": "yarn run clean && yarn run build:babel && yarn run build:copy-files",
