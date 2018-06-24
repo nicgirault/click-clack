@@ -1,10 +1,10 @@
 {
-  "name": "vrtest-dev",
-  "version": "0.2.0",
+  "name": "click-clack",
+  "version": "1.0.0",
   "private": true,
   "keywords": [],
-  "description": "wip",
-  "main": "./index.js",
+  "description": "A Javascript visual regression test runner using selenium",
+  "main": "./src/index.js",
   "bin": {
     "vrtest": "./bin/vrtest"
   },
@@ -23,14 +23,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nathanmarks/vrtest.git"
+    "url": "git+https://github.com/nicgirault/click-clack.git"
   },
-  "author": "Nathan Marks <info@nathanmarks.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nathanmarks/vrtest/issues"
+    "url": "https://github.com/nicgirault/click-clack/issues"
   },
-  "homepage": "https://github.com/nathanmarks/vrtest#readme",
+  "homepage": "https://github.com/nicgirault/click-clack#readme",
   "dependencies": {
     "any-promise": "^1.3.0",
     "bluebird": "^3.4.7",

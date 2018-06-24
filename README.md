@@ -1,8 +1,7 @@
-# vrtest - WIP
+# Click clack
 
-A JavaScript library for running visual regression tests on your components cross browser via selenium.
+![logo](https://raw.githubusercontent.com/nicgirault/click-clack/master/docs/logo.png "Logo")
 
----
+A Javascript visual regression test runner using selenium.
 
-Docs coming soon... currently being dogfed on https://github.com/callemall/material-ui/tree/next
-
+An example of usage can be found on [Argos-CI](https://github.com/argos-ci/argos/tree/master/examples/with-vrtest)
